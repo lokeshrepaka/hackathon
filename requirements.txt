@@ -1,3 +1,4 @@
+python==3.9
 streamlit-chat
 openai
 langchain==0.0.27
