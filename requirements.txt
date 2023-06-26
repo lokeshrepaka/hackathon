@@ -1,6 +1,6 @@
 streamlit-chat
 openai
-langchain
+langchain==0.0.134
 PyPDF2
 python-dotenv
 streamlit
