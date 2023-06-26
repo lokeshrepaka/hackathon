@@ -6,3 +6,4 @@ python-dotenv
 streamlit
 faiss-cpu
 streamlit-extras
+streamlit_option_menu
