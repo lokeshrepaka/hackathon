@@ -34,8 +34,7 @@ with st.sidebar:
     
     selected = option_menu('GEN LEARN',
                           
-                          ['GEN TUTOR',
-                           'GEN SCOLOR'],
+                          ['GEN TUTOR'],
                     
                           icons=['person','palette'],
                           default_index=0)
@@ -45,7 +44,7 @@ if (selected == 'GEN TUTOR'):
     openai.api_key = os.getenv('OPENAI_API_KEY')
 
     st.title("Gen Learn : Chatbot")
-    st.subheader("GEN AI Tutor:")
+    st.subheader("Use our GEN AI Tutor:")
 
     model = st.selectbox(
         "Select a model",
